@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Welcome";
+}
+
+<h2>Welcome</h2>
+<h3>Passed Value : @TempData["value"]</h3>
+<button value="Click" onclick="location.href='@Url.Action("ThankYou","Home")'">
+    Click Here
+</button>
+
